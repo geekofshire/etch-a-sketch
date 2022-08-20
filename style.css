@@ -34,9 +34,12 @@ body{
     align-items: center;
 }
 #color{
-    margin-top: 33px;
+    margin-top: 30px;
     margin-bottom: -20px;
+    height:20px;
 }
 #txt{
+    margin-top: 25px;
     color: crimson;
+    font-size: 10px;
 }
