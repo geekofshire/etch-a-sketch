@@ -3,6 +3,11 @@
 }
 body{
     background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -10px;
 }
 #heading{
     display: flex;
@@ -42,4 +47,21 @@ body{
     margin-top: 25px;
     color: crimson;
     font-size: 10px;
+}
+.grid{
+    margin-top: 10px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 425px;
+    width: 425px;
+    background-color: gray;
+    box-shadow: 10px 10px;
+}
+
+.cell{
+    background-color: white;
+    border: 1px solid black;
 }
